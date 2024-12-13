@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  font-size: large;
+  line-height: normal;
+  text-align: center;
+}
+h1, h2, h3 {
+  color: skyblue;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+a {
+  color: burlywood;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+.link-insta {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.link-insta img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
